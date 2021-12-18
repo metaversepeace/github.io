@@ -44,7 +44,7 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #ffffff;
-        font-family: sans-serif;
+        font-family: helvetica;
         font-size: 20px;
         border: none;
         display: block;
@@ -61,7 +61,7 @@
         background-position: center;
         border-radius: 50%;
         text-align: center;
-        font-family: sans-serif;
+        font-family: helvetica;
         font-size: 15px;
     }
 
