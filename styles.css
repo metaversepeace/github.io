@@ -39,7 +39,7 @@
         display:inline-flex;
     }
  
-    .menu {
+    .navbar ul li button:not(#spots) {
         background-color: transparent;
         text-transform: uppercase;
         text-decoration: none;
@@ -50,11 +50,6 @@
         display: block;
         height: 100%;
         padding: 0 10px;
-    }
-
-
-    .menu:hover {
-        opacity: 0.5;
     }
     
     #spots {
@@ -70,7 +65,7 @@
         font-size: 15px;
     }
 
-    #spots:hover {
+    .navbar ul li button:hover {
         opacity: 0.5;
     }
 
