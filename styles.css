@@ -2,7 +2,6 @@
     #map { 
         height: 600px;
         background-color: #217a4d;
-        position:relative;
     }
 
     #map::before{
