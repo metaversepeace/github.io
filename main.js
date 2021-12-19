@@ -48,6 +48,7 @@ async function getCoords(){
 	return [pos.coords.latitude, pos.coords.longitude]
 }
 
+
 // get foursquare businesses
 async function getFoursquare(business) {
 	const options = {
@@ -92,6 +93,7 @@ window.onload = async () => {
 //Radio Button
 // caffeine button click
 document.getElementById('caffeine').addEventListener('click', async (event) => {
+	event.preventDefault()
 	let business = document.getElementById('caffeine').value
 	let data = await getFoursquare(business)
 	myMap.businesses = processBusinesses(data)
@@ -100,14 +102,16 @@ document.getElementById('caffeine').addEventListener('click', async (event) => {
 
 // libations button click
 document.getElementById('libations').addEventListener('click', async (event) => {
+	event.preventDefault()
 	let business = document.getElementById('libations').value
-	let data = await getFoursquare(coffee)
+	let data = await getFoursquare(business)
 	myMap.businesses = processBusinesses(data)
 	myMap.addMarkers()
 })
 
 // sustenance button click
 document.getElementById('sustenance').addEventListener('click', async (event) => {
+	event.preventDefault()
 	let business = document.getElementById('sustenance').value
 	let data = await getFoursquare(business)
 	myMap.businesses = processBusinesses(data)
@@ -116,6 +120,7 @@ document.getElementById('sustenance').addEventListener('click', async (event) =>
 
 // sweets button click
 document.getElementById('sweets').addEventListener('click', async (event) => {
+	event.preventDefault()
 	let business = document.getElementById('sweets').value
 	let data = await getFoursquare(business)
 	myMap.businesses = processBusinesses(data)
@@ -124,8 +129,10 @@ document.getElementById('sweets').addEventListener('click', async (event) => {
 
 // spots button click
 document.getElementById('spots').addEventListener('click', async (event) => {
+	event.preventDefault()
 	let business = document.getElementById('spots').value
 	let data = await getFoursquare(business)
 	myMap.businesses = processBusinesses(data)
 	myMap.addMarkers()
 })
+
