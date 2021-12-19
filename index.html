@@ -24,29 +24,41 @@
 </head>
 
 <body>
-
-        <nav class="navbar">
-
-        <!--div class="btn-toggle-nav" onclick="budget()">Spots</div>
-
-Could do it this way<button id="submit">Spots</button>-->
-
-            <ul>
-
-                <li><button id="caffeine">caffeine</button></li>
     
-                <li><button id="libations">libations</button></li>              
+        <nav class="navbar">
+            <ul class="cool-spots">
 
-                <li><button id="sustenance">sustenance</button></li>              
+                <li>
+                <input type="radio" id="caffeine" name="button" value="coffee">
+                <label for="caffeine">Caffeine</label>
+                </li>    
+                
+                <li>
+                <input type="radio" id="libations" name="button" value="bar">
+                <label for="libations">Libations</label>    
+                </li>
 
-                <li><button id="sweets">sweets</button></li> 
+                <li>
+                <input type="radio" id="sustenance" name="button" value="food">
+                <label for="sustenance">Sustenance</label>     
+                </li>
 
-                <li><button id="spots">spots</button></li>
+                <li>
+                <input type="radio" id="sweets" name="button" value="dessert">
+                <label for="sweets">Sweets</label>  
+                </li>
+
+                <li>
+                <label id="spots"><input type="radio" name="button" value="fun">
+                <span>Spots</span>
+                </label>
+                </li>
 
             </ul>
-        
+
         </nav>
 
+    
     <aside class="sidebar">
 
         <ul>
