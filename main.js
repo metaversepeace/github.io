@@ -48,7 +48,6 @@ async function getCoords(){
 	return [pos.coords.latitude, pos.coords.longitude]
 }
 
-
 // get foursquare businesses
 async function getFoursquare(business) {
 	const options = {
@@ -136,3 +135,24 @@ document.getElementById('spots').addEventListener('click', async (event) => {
 	myMap.addMarkers()
 })
 
+// get radio menu selection
+var getSelectedValue = document.querySelector('input[name="menu-button"]:checked');   
+	if(getSelectedValue != null) {   
+         document.write("Radio button is selected");  
+	}else{  
+         document.write("Nothing has been selected");
+	}
+
+	/*
+function MutualExclusive() {
+	var menu = document.getElementById("navbar");
+	var choice = menu.getElementsByClassName("toggle");
+	for (var i = 0; i < inputs.length; i++) {
+		if (toggle[i].type == "button") {
+			if (toggle[i] != radio) {
+				toggle[i].checked = false;
+			}
+		}
+	}
+}
+*/

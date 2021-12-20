@@ -3,8 +3,9 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport” content="user-scalable=no”/>    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
     <title>Cool Spots</title>
 
@@ -25,57 +26,53 @@
 
 <body>
     
-    <nav class="navbar">
-        <ul class="cool-spots">
+    <form>
 
-            <li>
-            <input type="radio" id="caffeine" name="button" value="cafe">
-            <label for="caffeine">Caffeine</label>
-            </li>    
+        <div id="navbar">
 
-            <li>
-            <input type="radio" id="libations" name="button" value="bar">
-            <label for="libations">Libations</label>    
-            </li>
+            <button type="button" class="toggle" id="caffeine" value="cafe">
+                caffeine
+            </button>
+            <button type="button" class="toggle" id="libations" value="bar">
+                libations
+            </button>
+            <button type="button" class="toggle" id="sustenance" value="food">
+                sustenance
+            </button>
+            <button type="button" class="toggle" id="sweets" value="dessert">
+                sweets
+            </button>
 
-            <li>
-            <input type="radio" id="sustenance" name="button" value="food">
-            <label for="sustenance">Sustenance</label>     
-            </li>
+        </div>
 
-            <li>
-            <input type="radio" id="sweets" name="button" value="dessert">
-            <label for="sweets">Sweets</label>  
-            </li>
+    </form>
+   
+        <aside class="sidebar">
 
-            <li>
-            <label id="spots"><input type="radio" name="button" value="fun">
-            <span>Spots</span>
-            </label>
-            </li>
+            <ul>
 
-        </ul>
+                <li><a href="#">$</a></li> 
 
-        </nav>
+                <li><a href="#">$$</a></li> 
 
-    
-    <aside class="sidebar">
+                <li><a href="#">$$$</a></li> 
 
-        <ul>
+                <li><a href="#">$$$$</a></li> 
 
-            <li><a href="#">$</a></li> 
+            </ul>
 
-            <li><a href="#">$$</a></li> 
+        </aside>
 
-            <li><a href="#">$$$</a></li> 
+    <div id="map">
+        
+        <span id="cool-spots">
 
-            <li><a href="#">$$$$</a></li> 
-
-        </ul>
-
-    </aside>
- 
-    <div id="map"></div>
+            <button type="button" id="spots" value="fun">
+            spots
+            </button>
+            
+        </span>
 
 </body>
+
 </html>
