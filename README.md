@@ -1,9 +1,12 @@
 # Cool Spots Mapp
 
-This mapp utilizes the Leaflet library and Foursquare API to map the users geolocation coordinates onto a map. The user is then able to select a business type and have businesses add to the map.  
+Trip.com is excited to announce the launch of its Cool Spots Las Vegas MApp. It's the first in a series of Cool Spot city travel MApps that Trip.com will release this year. 
 
-## Minimum Steps to Produce
-* Get the user's current location.  
-* Map that location on a Leaflet map.  
-* Allow the user to select a business type from a select list and map the 5 nearest locations on the same map using the Foursquare API.
-# coolSpots
+Cool Spot city travel MApps give travelers a personal tourguide--the beloved Cool Spot. After his breakout in 7-Up commercials in the 80s, Cool Spot released his first video game on Nintendo to much acclaim. He performed in numerous sequel games in the 90s, cementing his reputation as a cross-console gaming star. Cool Spot's career first took him to China in the early 2000s. He fell in love with the county's majestic culture and now calls it his home. Some international fans may not have seen Cool Spot much since the 90s, but he's continued to perform in games for the Chinese market, and most recently expanded into to world of cinema with his roll in the 2019 blockbuster--China Jam [chinajam.net].  
+
+The Cool Spots Las Vegas MApp utilizes the Leaflet library to find and mark the traveler's geolocation coordinates onto their MApp. It also uses the Foursquare Places API, enabling travelers to select a business type and automatically add the closest five businesses of that type to their Cool Spots Mapp. Users can choose from the four most important business types when it comes to traveling--coffee shops, bars, restaurants, and sweet shops.
+
+Trip.com's Cool Spots city travel MApps also forge a partnership with the residents of the world's cities--the MApp network. Sometimes, too many tourists are sent to the same locations, on the same routes, creating overcrowding, bottlenecks, long waits, and an overall less pleasurable experience for both locals and visitors alike. In an effort to mitigate this problem, Trips.com works with local businesses to make tour-guiding more efficient. This is specifically the aim of the "spots" system. 
+
+THE SPOTS SYSTEM [The game I'm still making]
+MApp users can click the "spots" button to find places in the city where Cool Spot has hidden spots. These destinations are chosen in cooperation with local business owners in the MApp network. When a user enters a location with hidden spots, Cool Spot will try escape with the spot before you can find it. This triggers the user's MApp to switch to camera view. They can use their camera view to see an (AR) Cool Spot escaping. If the user can catch him, they get his Spot, which is good for 1 digital RMB at participating businesses. [There can be many little in-App games at this stage. The one I'm working on is a 3D slinshot game. The user, in their Camera view, sees an AR Cool Spot holding the string of a big baloon and floating away. They need to hit the baloon with their slingshot.]

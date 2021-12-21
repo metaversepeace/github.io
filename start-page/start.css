@@ -1,0 +1,18 @@
+body {
+    background-color: #217a4d;
+
+  }
+
+#startImage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}  
+
+#button p {
+    font-weight: bold;
+    color: #FBFFFF;
+  }
+
+  
+  

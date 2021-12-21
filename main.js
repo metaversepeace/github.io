@@ -1,3 +1,4 @@
+
 // map object
 const myMap = {
 	coordinates: [],
@@ -89,7 +90,7 @@ window.onload = async () => {
 	myMap.buildMap()
 }
 
-//Radio Button
+//Menu Buttons
 // caffeine button click
 document.getElementById('caffeine').addEventListener('click', async (event) => {
 	event.preventDefault()
@@ -135,24 +136,11 @@ document.getElementById('spots').addEventListener('click', async (event) => {
 	myMap.addMarkers()
 })
 
-// get radio menu selection
-var getSelectedValue = document.querySelector('input[name="menu-button"]:checked');   
-	if(getSelectedValue != null) {   
-         document.write("Radio button is selected");  
-	}else{  
-         document.write("Nothing has been selected");
-	}
+/*
+//variable for painting body (canvas), and placement of 2D bodies on the canvas
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
 
-	/*
-function MutualExclusive() {
-	var menu = document.getElementById("navbar");
-	var choice = menu.getElementsByClassName("toggle");
-	for (var i = 0; i < inputs.length; i++) {
-		if (toggle[i].type == "button") {
-			if (toggle[i] != radio) {
-				toggle[i].checked = false;
-			}
-		}
-	}
-}
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
 */
